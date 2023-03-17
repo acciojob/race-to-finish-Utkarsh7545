@@ -13,5 +13,5 @@ window.promises = Array.from({length: 5}=>
 }));
 
 Promise.any(window.promises)
-	.then((element)=>x.innerHTML=element;
-		)
+	.then((element)=>x.innerHTML=element
+);
