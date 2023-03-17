@@ -5,7 +5,7 @@ window.promises = [];
 
 
 window.promises = Array.from({length: 5}=> 
-	new Promise((resolve, reject)=>{
+	new Promise((resolve)=>{
 		const time=Math.floor(Math.random()*5)+1;
 	setTimeout(()=>{
 		resolve(`Promise resolved after ${timeout} seconds`);
